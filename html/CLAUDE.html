@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="./">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/highlight.css">
+    <script src="assets/script.js" defer></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$']],
+                displayMath: [['$$', '$$']],
+                processEscapes: false,
+                packages: {'[+]': ['noerrors', 'ams']}
+            },
+            options: {
+                ignoreHtmlClass: 'tex2jax_ignore',
+                processHtmlClass: 'tex2jax_process'
+            },
+            loader: {
+                load: ['[tex]/noerrors', '[tex]/ams']
+            }
+        };
+    </script>
+</head>
+<body>
+    <div class="container">
+        <nav id="sidebar" class="sidebar">
+            <div class="sidebar-header">
+                <h3>目录</h3>
+                <button id="sidebar-toggle" class="sidebar-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <div class="sidebar-search">
+                <input type="text" id="sidebar-search-input" placeholder="搜索..." autocomplete="off">
+            </div>
+            <div id="tree-container">
+                <ul class="nav-list"><li class=""><a href="index.html">顶级专车司机服务之道：从精湛驾驶到卓越服务的公开教程</a></li><li class=""><a href="chapter1.html">第一章：心法篇 - 从司机到出行管家的思维跃迁</a></li><li class=""><a href="chapter2.html">第二章：准备篇 - 工欲善其事，必先利其器</a></li><li class=""><a href="chapter3.html">第三章：驾驶篇 - “无感驾驶”的艺术</a></li><li class=""><a href="chapter4.html">第四章：服务篇 - 打造“移动的绿洲”</a></li><li class=""><a href="chapter5.html">第五章：进阶篇 - 复杂场景与危机处理</a></li><li class=""><a href="chapter6.html">第六章：运营篇 - 职业生涯的可持续发展</a></li><li class=""><a href="chapter7.html">附录：实用清单与工具箱</a></li><li class="active"><a href="CLAUDE.html">Untitled</a></li></ul>
+            </div>
+        </nav>
+        
+        <main class="content">
+            <article>
+                <p>（交流可以用英文，所有文档中文）</p>
+<h2 id="_1">项目目标</h2>
+<p>编写一份《顶级专车司机服务之道：从精湛驾驶到卓越服务的公开教程》的中文课程markdown
+文件组织是 index.md + chapter1.md + ...
+不写代码</p>
+<h3 id="_2"></h3>
+<p>写一本中文公开教程 markdown讨论如何传授在各类驾驶场景下作为一个顶级专车司机的服务诀窍，目标读者是中级人类司机。从基本驾驶安全到给乘客提供用户价值。</p>
+<h2 id="_3">章节结构要求</h2>
+<p>每个章节应包含：</p>
+<ol>
+<li><strong>开篇段落</strong>：简要介绍本章内容和学习目标</li>
+<li><strong>文字论述</strong>：以文字论述为主，适当配上ASCII 图说明。要有 rule-of-thumb。不写代码. 数学用 latex。</li>
+<li><strong>本章小结</strong>：总结关键概念</li>
+<li><strong>常见陷阱与错误</strong> (Gotchas)：每章包含该主题的常见错误和调试技巧</li>
+</ol>
+            </article>
+            
+            <nav class="page-nav"><a href="chapter7.html" class="nav-link prev">← 附录：实用清单与工具箱</a></nav>
+        </main>
+    </div>
+</body>
+</html>
